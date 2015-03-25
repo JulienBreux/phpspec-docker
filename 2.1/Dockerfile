@@ -12,7 +12,6 @@ RUN composer selfupdate && \
 
 # Set up the application directory.
 VOLUME ["/app"]
-
 WORKDIR /app
 
 # Set up the command arguments.

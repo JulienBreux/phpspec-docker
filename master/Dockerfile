@@ -1,6 +1,5 @@
 # PHPSpec Docker Container
 FROM composer/composer
-
 MAINTAINER Julien Breux <julien.breux@gmail.com>
 
 # Goto temporary directory
@@ -13,7 +12,6 @@ RUN composer selfupdate && \
 
 # Set up the application directory.
 VOLUME ["/app"]
-
 WORKDIR /app
 
 # Set up the command arguments.
