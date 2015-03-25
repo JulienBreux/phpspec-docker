@@ -29,7 +29,7 @@
 3. Run PHPSpec through the PHPSpec container:
 
     ``` sh
-	$ docker run -v $(pwd):/app julienbreux/phpspec install
+	$ docker run -v $(pwd):/app julienbreux/phpspec run
     ```
 
 To run, test and develop the PHPSpec Dockerfile itself, you must use the source directly:
