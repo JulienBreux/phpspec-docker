@@ -4,7 +4,7 @@
 
 ## Features
 
-* [PHPSpec]
+* [PHPSpec](https://www.phpspec.net/)
   * Latest snapshot (master)
   * [`2.1`](https://github.com/phpspec/phpspec/blob/2.1.1/CHANGES.md)
 * [PHP](http://php.net) [5.6](http://php.net/ChangeLog-5.php)
