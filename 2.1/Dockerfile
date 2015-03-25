@@ -6,12 +6,13 @@ MAINTAINER Julien Breux <julien.breux@gmail.com>
 WORKDIR /tmp
 
 # Run composer and phpspec installation.
-RUN composer selfupdate
-RUN composer require "phpspec/phpspec:~2.1" --dev
-RUN ln -s /tmp/vendor/bin/phpspec /usr/local/bin/phpspec
+RUN composer selfupdate && \
+  composer require "phpspec/phpspec:~2.1" --dev && \
+  ln -s /tmp/vendor/bin/phpspec /usr/local/bin/phpspec
 
 # Set up the application directory.
 VOLUME ["/app"]
+
 WORKDIR /app
 
 # Set up the command arguments.
