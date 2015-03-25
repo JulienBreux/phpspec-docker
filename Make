@@ -1,0 +1,9 @@
+build:
+	docker build -t julienbreux/phpspec master
+	docker build -t julienbreux/phpspec:2.1 2.1
+
+version:
+	docker run julienbreux/phpspec --version
+	docker run julienbreux/phpspec:2.1 --version
+
+.PHONY: build
