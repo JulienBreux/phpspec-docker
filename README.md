@@ -1,13 +1,17 @@
 # PHPSpec Docker Container
 
+[![Docker pull](https://img.shields.io/docker/pulls/phpspec/phpspec.svg)](https://hub.docker.com/r/phpspec/phpspec/) [![Docker pull](https://img.shields.io/docker/stars/phpspec/phpspec.svg)](https://hub.docker.com/r/phpspec/phpspec/) [![Github issues](https://img.shields.io/github/issues/JulienBreux/phpspec-docker.svg)](https://github.com/JulienBreux/phpspec-docker/issues) [![License](https://img.shields.io/github/license/JulienBreux/phpspec-docker.svg)](https://github.com/JulienBreux/phpspec-docker/blob/master/LICENSE)
+
+
 [Docker](https://www.docker.com) container to install and run [PHPSpec](https://www.phpspec.net/).
 
 ## Features
 
 * [PHPSpec](https://www.phpspec.net/)
   * Latest snapshot (master)
-  * [`2.1`](https://github.com/phpspec/phpspec/blob/2.1.1/CHANGES.md)
-* [PHP](http://php.net) [5.6](http://php.net/ChangeLog-5.php)
+  * [`2.2.1`](https://github.com/phpspec/phpspec/blob/2.2.1/CHANGES.md#221--2015-05-30)
+  * [`2.1`](https://github.com/phpspec/phpspec/blob/2.2.1/CHANGES.md#211--2015-01-09)
+* [PHP](https://php.net) [5.6](https://php.net/ChangeLog-5.php)
 
 ## Installation / Usage
 
