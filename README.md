@@ -10,7 +10,7 @@
 * [PHPSpec](https://www.phpspec.net/)
   * Latest snapshot (master)
   * [`2.2.1`](https://github.com/phpspec/phpspec/blob/2.2.1/CHANGES.md#221--2015-05-30)
-  * [`2.1`](https://github.com/phpspec/phpspec/blob/2.2.1/CHANGES.md#211--2015-01-09)
+  * [`2.1`](https://github.com/phpspec/phpspec/blob/2.1.0/CHANGES.md#210--2014-12-14)
 * [PHP](https://php.net) [5.6](https://php.net/ChangeLog-5.php)
 
 ## Installation / Usage
