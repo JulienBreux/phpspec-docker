@@ -7,7 +7,7 @@ WORKDIR /tmp
 
 # Run composer and phpspec installation.
 RUN composer selfupdate && \
-  composer require "phpspec/phpspec:~2.2.1" --dev && \
+  composer require "phpspec/phpspec:~2.5.2" --dev && \
   ln -s /tmp/vendor/bin/phpspec /usr/local/bin/phpspec
 
 # Set up the application directory.
