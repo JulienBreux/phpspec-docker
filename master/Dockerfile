@@ -1,5 +1,5 @@
 # PHPSpec Docker Container
-FROM composer/composer
+FROM composer/composer:alpine
 MAINTAINER Julien Breux <julien.breux@gmail.com>
 
 # Goto temporary directory
